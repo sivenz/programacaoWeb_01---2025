@@ -12,24 +12,26 @@
 <body>
     <header>
         <h1>Guilherme Nunes</h1>
-        <h3>Desenvolvedor Front-End</h3>
+        <p>Desenvolvedor Front-End</p>
     </header>
 
     <main>
-        <h4>
-            <p>Sobre mim:</p>
-            <p>Nascido em 2007, em são paulo Brasil, Guilherme Nunes busca sempre expandir <br>
-                seu conhecimento e aprimorar sua habilidades com tecnologia <br>
-            com bojetivo de ingressar em uma empresa de tecnologia na area de programação.</p>
-            <P>Habilidades:</P>
-            
+        <section aria-labelledby="sobre-mim">
+            <h2 id="sobre-mim">Sobre mim</h2>
+            <p>Nascido em 2007, em São Paulo, Brasil, Guilherme Nunes busca sempre expandir
+                seu conhecimento e aprimorar suas habilidades com tecnologia, com o objetivo
+                de ingressar em uma empresa de tecnologia na área de programação.</p>
+        </section>
+
+        <section aria-labelledby="habilidades">
+            <h2 id="habilidades">Habilidades</h2>
             <ul>
                 <li>Resolução de Problemas</li>
                 <li>Pensamento Crítico</li>
                 <li>Conhecimento Técnico da Área
                     <ul>
-                        <li>Javascript</li>
-                        <li>HTML 5</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
                         <li>CSS</li>
                         <li>Python</li>
                     </ul>
@@ -37,17 +39,30 @@
                 <li>Trabalho em Equipe e Colaboração</li>
                 <li>Gestão de Tempo / Organização</li>
             </ul>
-        </h4>
+        </section>
     </main>
 
     <footer>
-        <div class="social-icons">
-            <a href="https://github.com/sivenz" target="_blank"><img src="/ASSETS/github.svg" alt="GitHub"></a>
-            <a href="https://x.com/malborochinoiro" target="_blank"><img src="/ASSETS/twitter-x.svg" alt="X"></a>
-            <a href="https://open.spotify.com/user/n85moi9xak5s7tx5avzwv3omc" target="_blank"><img
-                    src="/ASSETS/braces.svg" alt="Chaves"></a>
-        </div>
-        <p id="copy"> Feito por Guilherme Nunes &copy; </p>
+        <nav aria-label="Redes sociais">
+            <ul class="social-icons">
+                <li>
+                    <a href="https://github.com/sivenz" target="_blank" rel="noopener">
+                        <img src="/ASSETS/github.svg" alt="GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/malborochinoiro" target="_blank" rel="noopener">
+                        <img src="/ASSETS/twitter-x.svg" alt="X">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/user/n85moi9xak5s7tx5avzwv3omc" target="_blank" rel="noopener">
+                        <img src="/ASSETS/braces.svg" alt="Spotify">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <p id="copy">Feito por Guilherme Nunes &copy;</p>
     </footer>
 </body>
 
