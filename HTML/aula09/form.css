@@ -1,0 +1,53 @@
+ body{
+    background-color: blueviolet;
+ }
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+header{
+    background-color:blueviolet;
+    display: grid;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+}
+
+img{
+    width: 30vw;
+    height: 20vh;
+}
+
+label{
+    color:blueviolet;
+    justify-content: center;
+    color: white;
+}
+
+form{
+    justify-content: center;
+    display: grid;
+    color: white;
+}
+
+footer{
+    justify-content: center;
+    display: flex;
+}
+
+#dadosCliente{
+    background-color: blueviolet;
+}
+
+.imagemPlano{
+    width: 200px;
+    height: 400px;
+}
+
+
