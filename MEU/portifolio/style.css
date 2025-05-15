@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    margin-left: 35px;
   }
   
   .social-icons {
@@ -33,4 +34,10 @@ body {
   #copy{
     margin-top: 45%;
     position: fixed;
+    color: beige;
+  }
+
+  .header{
+    margin: 0;
+    height: 10vh;
   }
