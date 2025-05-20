@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 5px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 0.1px;
+}
+
+.nav-left img {
+    width: 10vh;
+    height: auto;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+}
+
+.nav-center ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-center ul li button {
+    background-color: rgb(38, 38, 133);
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    justify-items: center;
+}
+
+.nav-center ul li button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-right {
+    width: 10vh; 
+}
+
+a:hover {
+    color: black;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(38, 38, 133);
+}
+
+header nav{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+
+header nav ul{
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block; 
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+header nav ul li button {
+    background-color: rgb(38, 38, 133);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+header nav ul li button a {
+    text-decoration: none;
+    display: grid;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    
+    
+}
+
+main {
+    margin: 5px;
+}
+
+.box span {
+    color: rgb(38, 38, 133);
+    font-weight: 700;
+}
+
+.box h1{
+    display: flex;
+    justify-content: center;
+}
+
+.box h3{
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    color: #fff;
+}
+
+.video{
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+}
+
+
