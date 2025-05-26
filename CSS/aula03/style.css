@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/ASSETS/radagon02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    
+}
