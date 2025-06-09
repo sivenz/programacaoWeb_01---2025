@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;   
+    
+}
+
+body {
+    align-items: center;
+
+}
+
+.nav-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px 30px;
+}
+
+.nav-img{
+    width: 10vw;
+    height: auto;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+}
+
+
+.nav-bar {
+    display: grid;
+}
+
