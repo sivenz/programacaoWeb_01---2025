@@ -41,6 +41,6 @@
     /* flex-grow determina o espaço ocupado por determinado item, o tamanho padrão do flex-grow é 0, mas se voce declara um flex-grow de 2, esse elemento ocupara o dobro de espaço flexivel */
 }
 
-#seis{
+#seis {
     flex: 1 2 300px;
 }
